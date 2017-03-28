@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /app/
+Disallow: /store_closed.html
+
+Sitemap: http://www.northskull.com/sitemap.xml
+Sitemap: http://www.northskull.com/image-sitemap.xml

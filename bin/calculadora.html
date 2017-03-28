@@ -1,0 +1,20 @@
+<HTML>
+<HEAD>
+<SCRIPT LANGUAJE="Javascript">
+ function calcula(form) {
+ form.resultado.value = eval(form.expr.value)
+}
+</SCRIPT>
+</HEAD>
+<BODY>
+<FORM>
+ Introduzca una expresión:
+ <INPUT TYPE="text" NAME="expr" SIZE=15>
+ <INPUT TYPE="button" NAME="Boton" VALUE="Calcular" ONCLICK="calcula(this.form)">
+ <BR>
+ Resultado:
+ <INPUT TYPE="text" NAME="resultado" SIZE=15>
+ <BR>
+</FORM>
+</BODY>
+</HTML>
